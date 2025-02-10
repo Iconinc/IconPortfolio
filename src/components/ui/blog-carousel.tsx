@@ -4,7 +4,7 @@ import React, {
     useRef,
     useState,
     createContext,
-    useContext, JSX,
+    useContext, JSX, RefObject,
 } from "react";
 import {
     IconArrowNarrowLeft,
@@ -39,9 +39,9 @@ export const CarouselContext = createContext<{
 });
 
 export const Carousel = ({ items, initialScroll = 0 }: CarouselProps) => {
-    const carouselRef = React.useRef<HTMLDivElement>(null);
-    const [canScrollLeft, setCanScrollLeft] = React.useState(false);
-    const [canScrollRight, setCanScrollRight] = React.useState(true);
+    const carouselRef = useRef<HTMLDivElement | null>(null);
+    const [canScrollLeft, setCanScrollLeft] = useState(false);
+    const [canScrollRight, setCanScrollRight] = useState(true);
     const [currentIndex, setCurrentIndex] = useState(0);
 
     useEffect(() => {
@@ -174,7 +174,7 @@ export const Card = ({
     layout?: boolean;
 }) => {
     const [open, setOpen] = useState(false);
-    const containerRef = useRef<HTMLDivElement>(null);
+    const containerRef = useRef<HTMLDivElement | null>(null);
     const { onCardClose, currentIndex } = useContext(CarouselContext);
 
     useEffect(() => {
@@ -194,7 +194,8 @@ export const Card = ({
         return () => window.removeEventListener("keydown", onKeyDown);
     }, [open]);
 
-    useOutsideClick(containerRef, () => handleClose());
+    useOutsideClick(containerRef as RefObject<HTMLDivElement>, () => handleClose());
+
 
     const handleOpen = () => {
         setOpen(true);
