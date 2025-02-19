@@ -49,11 +49,11 @@ export function ThemeToggle() {
                         aria-pressed={isActive}
                         disabled={isActive}
                         className={clsx(
-                            'flex items-center gap-2 px-3 py-2 rounded-full transition-all',
-                            'hover:bg-gray-200 dark:hover:bg-gray-700',
+                            'flex items-center gap-2 px-2 rounded-full transition-all',
+                            '',
                             'disabled:opacity-100 disabled:cursor-default',
                             {
-                                'bg-white dark:bg-gray-900 shadow-sm': isActive,
+                                'shadow-sm': isActive,
                                 'opacity-50 hover:opacity-100': !isActive,
                             }
                         )}
@@ -61,7 +61,7 @@ export function ThemeToggle() {
                         <Icon className={clsx(
                             'h-4 w-4',
                             isActive
-                                ? 'text-blue-500 dark:text-blue-400'
+                                ? 'text-blue-600 dark:text-blue-400'
                                 : 'text-gray-600 dark:text-gray-400'
                         )} />
                         {/*<span className={clsx(*/}

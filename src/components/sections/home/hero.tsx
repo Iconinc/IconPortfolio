@@ -13,7 +13,7 @@ const DockItems = ({src}:{src:string}) => {
 export const Hero = () => {
     return (
         <section>
-            <BackgroundBeamsWithCollision className={'flex-col !h-screen'}>
+            <BackgroundBeamsWithCollision className={'flex-col !h-screen bg-neutral-200 dark:bg-neutral-950'}>
                 <div className={'absolute w-screen left-0 top-0 h-screen z-0'}>
                 <TextHoverEffect text="ICON." />
                 </div>

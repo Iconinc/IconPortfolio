@@ -2,7 +2,6 @@
 import { cn } from "@/lib/utils";
 import { useState } from "react";
 import {HoveredLink, Menu, MenuItem, ProductItem} from "./navbar-menu";
-import {ThemeToggle} from "@/components/theme/theme-toggle";
 
 function Navbar({ className }: { className?: string }) {
     const [active, setActive] = useState<string | null>(null);
@@ -57,7 +56,6 @@ function Navbar({ className }: { className?: string }) {
                     </div>
                 </MenuItem>
             </Menu>
-            <ThemeToggle/>
         </div>
     );
 }

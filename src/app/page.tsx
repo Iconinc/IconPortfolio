@@ -4,6 +4,7 @@ import {Projects} from "@/components/sections/home/projects";
 import {Services} from "@/components/sections/home/services";
 import {Testimonials} from "@/components/sections/home/testimonials";
 import {Blogs} from "@/components/sections/home/blogs";
+import Bento from "@/components/sections/home/bento";
 
 export default function Home() {
   return (
@@ -11,8 +12,9 @@ export default function Home() {
         <Hero/>
         <About/>
         <Projects/>
+        <Bento/>
         <Services/>
-        <Blogs/>
+        {/*<Blogs/>*/}
         <Testimonials/>
     </section>
   );

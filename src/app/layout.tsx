@@ -4,6 +4,7 @@ import { ThemeScript } from "@/components/theme/theme-script";
 import "./globals.css";
 import React from "react";
 import Navbar from "@/components/ui/hero/navbar/Navbar";
+import Footer from "@/components/sections/home/footer";
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -25,7 +26,8 @@ export default function RootLayout({
       >
       <ThemeProvider>
         <Navbar/>
-        {children}
+          {children}
+        <Footer/>
       </ThemeProvider>
       </body>
     </html>
