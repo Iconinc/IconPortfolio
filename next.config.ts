@@ -6,6 +6,7 @@ const nextConfig: NextConfig = {
             "assets.aceternity.com",
             "images.unsplash.com",
             "tailwindui.com",
+            "media.licdn.com",
             "api.microlink.io", // Image Preview
         ],
     },

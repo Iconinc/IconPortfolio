@@ -13,7 +13,7 @@ export default function Home() {
         <About/>
         <Projects/>
         <Bento/>
-        <Services/>
+        {/*<Services/>*/}
         {/*<Blogs/>*/}
         <Testimonials/>
     </section>
