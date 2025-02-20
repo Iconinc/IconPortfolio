@@ -32,10 +32,11 @@ const Footer = () => {
                     © {new Date().getFullYear()} All Rights Reserved by Icon.
                     </p>
                     <ul className={'flex flex-wrap items-center justify-center uppercase gap-4 md:gap-8 font-semibold text-sm'}>
-                        <Link className={'duration-150 hover:tracking-widest'} href={'https://www.linkedin.com/in/reconfort-daniel/'} target={'_self'}>Instagram</Link>
-                        <Link className={'duration-150 hover:tracking-widest'} href={'https://www.linkedin.com/in/reconfort-daniel/'} target={'_self'}>Linkedin</Link>
-                        <Link className={'duration-150 hover:tracking-widest'} href={'https://www.linkedin.com/in/reconfort-daniel/'} target={'_self'}>Behance</Link>
-                        <Link className={'duration-150 hover:tracking-widest'} href={'https://www.linkedin.com/in/reconfort-daniel/'} target={'_self'}>Email</Link>
+                        <Link className={'duration-150 hover:tracking-widest'} href={'https://www.instagram.com/theicondevs'} target={'_self'}>Instagram</Link>
+                        <Link className={'duration-150 hover:tracking-widest'} href={'https://www.linkedin.com/in/reconfort-daniel'} target={'_self'}>Linkedin</Link>
+                        <Link className={'duration-150 hover:tracking-widest'} href={'https://www.behance.net/reconfortdaniel'} target={'_self'}>Behance</Link>
+                        <Link className={'duration-150 hover:tracking-widest'} href={'https://dribbble.com/Netfort'} target={'_self'}>Dribbble</Link>
+                        <Link className={'duration-150 hover:tracking-widest'} href={'mailto:theiconcompany.inc@gmail.com'} target={'_self'}>Email</Link>
                         <ThemeToggle/>
                     </ul>
                 </div>
