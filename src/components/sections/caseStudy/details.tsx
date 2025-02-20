@@ -69,7 +69,7 @@ const dummyContent = [
         ),
         badge: "React",
         image:
-            "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&q=80&w=3540&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "https://cdn.dribbble.com/userupload/32746766/file/original-785a283a682d722032605c9de044ec2a.png?resize=1504x1138&vertical=center",
     },
     {
         title: "Lorem Ipsum Dolor Sit Amet",
@@ -93,7 +93,7 @@ const dummyContent = [
         ),
         badge: "Changelog",
         image:
-            "https://images.unsplash.com/photo-1519681393784-d120267933ba?auto=format&fit=crop&q=80&w=3540&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "https://cdn.dribbble.com/userupload/32746769/file/original-b21b8059e15250b55ebd710627b1774f.png?resize=1504x940&vertical=center",
     },
     {
         title: "Lorem Ipsum Dolor Sit Amet",
@@ -111,6 +111,6 @@ const dummyContent = [
         ),
         badge: "Launch Week",
         image:
-            "https://images.unsplash.com/photo-1469474968028-56623f02e42e?auto=format&fit=crop&q=80&w=3506&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "https://cdn.dribbble.com/userupload/32746763/file/original-0e7e02b8dcd07c44e1d6290cda42fe6b.jpeg?resize=1504x995&vertical=center",
     },
 ];

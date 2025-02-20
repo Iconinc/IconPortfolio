@@ -19,7 +19,7 @@ export function IntroScroll() {
                 }
             >
                 <Image
-                    src={`/assets/linear.webp`}
+                    src={`https://cdn.dribbble.com/userupload/32746758/file/original-8e599d174c9d4c5545fabec3c3b22713.png?resize=1504x940&vertical=center`}
                     alt="hero"
                     height={720}
                     width={1400}

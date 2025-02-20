@@ -3,6 +3,13 @@ export const ProjectData = [
             title: "Icon V1.",
             content: {
                 title: "Built and launched Aceternity UI and Aceternity UI Pro from scratch",
+                contentLists: [
+                    "✅ Card grid component",
+                    "✅ Startup template",
+                    "✅ Website AND UI/UX",
+                ],
+                projectLink: "https://iconns.netlify.app/",
+                dribbbleLink: "https://dribbble.com/shots/25655960-Icon-v1-Agency-Landing-Page",
                 ProjectArray: [
                     {
                         image: "https://cdn.dribbble.com/userupload/32403711/file/original-7d9e42939eeee25e4295f56b8d7fef5e.png?resize=1504x977&vertical=center",
@@ -27,6 +34,13 @@ export const ProjectData = [
             title: "Lunaroot",
             content: {
                 title: "I usually run out of copy, but when I see content this big, I try to integrate lorem ipsum.",
+                contentLists: [
+                    "✅ Card grid component",
+                    "✅ Startup template",
+                    "✅ Website AND UI/UX",
+                ],
+                projectLink: "https://www.lunaroot.rw",
+                dribbbleLink: "https://dribbble.com/shots/25656036-Lunaroot-rw-streetwear-UI-UX-Design",
                 ProjectArray: [
                     {
                         image: "https://cdn.dribbble.com/userupload/32411312/file/original-b344c6680174bcaeb03d4940b912644d.png?resize=1504x977&vertical=center",
@@ -53,11 +67,11 @@ export const ProjectData = [
                 title: "Deployed 5 new components on Aceternity today",
                 contentLists: [
                     "✅ Card grid component",
-                    "✅ Startup template Aceternity",
-                    "✅ Random file upload lol",
-                    "✅ Himesh Reshammiya Music CD",
-                    "✅ Salman Bhai Fan Club registrations open",
+                    "✅ Startup template",
+                    "✅ Website AND UI/UX",
                 ],
+                projectLink: "https://obsessedwithcapital.com",
+                dribbbleLink: "https://dribbble.com/shots/25656085-Job-Listing-Web-UI-UX",
                 ProjectArray: [
                     {
                         image: "https://cdn.dribbble.com/userupload/32411429/file/original-9ca6e0a5dde4edcc2302284bc579300b.png?resize=1504x977&vertical=center",
@@ -81,14 +95,14 @@ export const ProjectData = [
         {
         title: "WFP",
         content: {
-            title: "Deployed 5 new components on Aceternity today",
+            title: "Non Profit Organisation Template",
             contentLists: [
                 "✅ Card grid component",
-                "✅ Startup template Aceternity",
-                "✅ Random file upload lol",
-                "✅ Himesh Reshammiya Music CD",
-                "✅ Salman Bhai Fan Club registrations open",
+                "✅ Startup template",
+                "✅ Website AND UI/UX",
             ],
+            projectLink: "https://womenprogressfamily.netlify.app/",
+            dribbbleLink: "https://dribbble.com/shots/25656110-Non-Profit-Organisation-UI-UX",
             ProjectArray: [
                 {
                     image: "https://cdn.dribbble.com/userupload/32425643/file/original-f8c7f9658a7bad76c1ccec867d868417.png?resize=1504x977&vertical=center",
@@ -110,16 +124,16 @@ export const ProjectData = [
         }
     },
         {
-        title: "Isaa",
+        title: "Issa",
         content: {
-            title: "Deployed 5 new components on Aceternity today",
+            title: "Issa's Developer Portfolio",
             contentLists: [
                 "✅ Card grid component",
-                "✅ Startup template Aceternity",
-                "✅ Random file upload lol",
-                "✅ Himesh Reshammiya Music CD",
-                "✅ Salman Bhai Fan Club registrations open",
+                "✅ Startup template",
+                "✅ Website AND UI/UX",
             ],
+            projectLink: "https://isaadev.netlify.app/",
+            dribbbleLink: "https://dribbble.com/shots/25657995-Modern-Minimal-Portfolio-UI-UX",
             ProjectArray: [
                 {
                     image: "https://cdn.dribbble.com/userupload/32746766/file/original-785a283a682d722032605c9de044ec2a.png?resize=1504x1138&vertical=center",
@@ -146,11 +160,11 @@ export const ProjectData = [
             title: "Deployed 5 new components on Aceternity today",
             contentLists: [
                 "✅ Card grid component",
-                "✅ Startup template Aceternity",
-                "✅ Random file upload lol",
-                "✅ Himesh Reshammiya Music CD",
-                "✅ Salman Bhai Fan Club registrations open",
+                "✅ Startup template",
+                "✅ Website AND UI/UX",
             ],
+            projectLink: "https://aetherapp.netlify.app",
+            dribbbleLink: "https://dribbble.com/shots/25658108-Aether-Landing-Page",
             ProjectArray: [
                 {
                     image: "https://cdn.dribbble.com/userupload/32749836/file/original-b739f06d1d28ef38a07d43e7ab775065.png?resize=1504x977&vertical=center",

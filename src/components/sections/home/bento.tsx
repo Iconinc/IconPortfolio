@@ -2,7 +2,7 @@ import {Practice1, Practice2, Practice3, Practice4} from "@/Content/Practises";
 
 export default function Bento() {
     return (
-        <div className="bg-neutral-100 dark:bg-neutral-950 py-24 sm:py-32">
+        <section id={'Services'} className="bg-neutral-100 dark:bg-neutral-950 py-24 sm:py-32">
             <div className="mx-auto max-w-2xl px-6 lg:max-w-7xl lg:px-8">
                 <h2 className="text-center text-base/7 font-semibold text-indigo-600">Our Best Practice</h2>
                 <p className="mx-auto mt-2 max-w-lg text-center text-4xl font-semibold tracking-tight text-balance text-neutral-950 dark:text-neutral-200 sm:text-5xl">
@@ -102,6 +102,6 @@ export default function Bento() {
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
     )
 }

@@ -11,10 +11,10 @@ export default function Home() {
     <section>
         <Hero/>
         <About/>
-        <Projects/>
+        <section id={'Products'}>
+            <Projects/>
+        </section>
         <Bento/>
-        {/*<Services/>*/}
-        {/*<Blogs/>*/}
         <Testimonials/>
     </section>
   );
