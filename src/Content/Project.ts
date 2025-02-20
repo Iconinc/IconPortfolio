@@ -2,7 +2,7 @@ export const ProjectData = [
         {
             title: "Icon V1.",
             content: {
-                title: "Built and launched Aceternity UI and Aceternity UI Pro from scratch",
+                title: "Built and launched and Pro from icon.",
                 contentLists: [
                     "✅ Card grid component",
                     "✅ Startup template",
@@ -33,7 +33,7 @@ export const ProjectData = [
         {
             title: "Lunaroot",
             content: {
-                title: "I usually run out of copy, but when I see content this big, I try to integrate lorem ipsum.",
+                title: "Built and launched and Pro from icon.",
                 contentLists: [
                     "✅ Card grid component",
                     "✅ Startup template",
@@ -64,7 +64,7 @@ export const ProjectData = [
         {
             title: "OWC",
             content: {
-                title: "Deployed 5 new components on Aceternity today",
+                title: "Built and launched and Pro from icon.",
                 contentLists: [
                     "✅ Card grid component",
                     "✅ Startup template",
@@ -95,7 +95,7 @@ export const ProjectData = [
         {
         title: "WFP",
         content: {
-            title: "Non Profit Organisation Template",
+            title: "Built and launched and Pro from icon.",
             contentLists: [
                 "✅ Card grid component",
                 "✅ Startup template",
@@ -126,7 +126,7 @@ export const ProjectData = [
         {
         title: "Issa",
         content: {
-            title: "Issa's Developer Portfolio",
+            title: "Built and launched and Pro from icon.",
             contentLists: [
                 "✅ Card grid component",
                 "✅ Startup template",
@@ -157,7 +157,7 @@ export const ProjectData = [
         {
         title: "Aether",
         content: {
-            title: "Deployed 5 new components on Aceternity today",
+            title: "Built and launched and Pro from icon.",
             contentLists: [
                 "✅ Card grid component",
                 "✅ Startup template",
@@ -185,4 +185,4 @@ export const ProjectData = [
             ]
         }
     }
-    ]
+]

@@ -32,10 +32,10 @@ export function Projects() {
                     ))}
                 </div>
                 <div className={'flex items-start justify-start gap-4 mt-4'}>
-                    <Link href={project.content.projectLink} className={'p-3 rounded-2xl border-2 border-neutral-200 text-neutral-200'}>
+                    <Link href={project.content.projectLink} className={'p-3 rounded-2xl border-2  border-neutral-800 dark:border-neutral-200 text-neutral-800 dark:text-neutral-200'}>
                         <ExternalLink size={12}/>
                     </Link>
-                    <Link href={project.content.dribbbleLink} className={'p-3 rounded-2xl border-2 border-neutral-200 text-neutral-200'}>
+                    <Link href={project.content.dribbbleLink} className={'p-3 rounded-2xl border-2 border-neutral-800 dark:border-neutral-200 text-neutral-800 dark:text-neutral-200'}>
                         <Dribbble size={12}/>
                     </Link>
                 </div>
