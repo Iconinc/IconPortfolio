@@ -3,17 +3,20 @@ import { Details } from "@/components/sections/caseStudy/details";
 import { Testimonials } from "@/components/sections/home/testimonials";
 import { ProjectData } from "@/Content/Project";
 import { slugify } from "@/lib/slugify";
-import {Metadata} from "next";
+import { Metadata } from "next";
 
-export async function generateMetadata({ params }: { params: { slug: string } }): Promise<Metadata> {
-    const project = ProjectData.find(p => slugify(p.title) === params.slug);
+export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
+    const slug = (await params).slug
+    const project = ProjectData.find(p => slugify(p.title) === slug);
     return {
         title: project ? project.title : "Project Not Found",
     };
 }
 
-export default function CaseStudy({ params }: { params: { slug: string } }) {
-    const project = ProjectData.find(p => slugify(p.title) === params.slug);
+export default async function CaseStudy({ params }: { params: Promise<{ slug: string }> }) {
+
+    const slug = (await params).slug
+    const project = ProjectData.find(p => slugify(p.title) === slug);
 
     if (!project) {
         return <h1 className="text-center w-full h-full flex-center font-bold">Project not found</h1>;
