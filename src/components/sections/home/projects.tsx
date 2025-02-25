@@ -21,7 +21,7 @@ export function Projects() {
                     />
                 }
             >
-            <Link href={`/project/${slugify(project.title)}`}>
+            <Link href={`/project/${slugify(project.title)}`} className={'cursor-none'}>
                 <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal mb-8">
                     {(project.content.title).trim()}
                 </p>
