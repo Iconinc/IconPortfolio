@@ -5,12 +5,22 @@ import { ProjectData } from "@/Content/Project";
 import Link from "next/link";
 import {Dribbble, ExternalLink} from "lucide-react";
 import { slugify } from "@/lib/slugify";
+import TitleComponent from "@/components/ui/title-component";
+import { FollowerPointerCard } from "@/components/ui/following-pointer";
 
 export function Projects() {
 
     const timelineData = ProjectData.map((project) => ({
         title: project.title,
         content: (
+            <FollowerPointerCard
+                title={
+                    <TitleComponent
+                        title={`Explore ${project.title}`}
+                        avatar={project.content.ProjectArray[0].image}
+                    />
+                }
+            >
             <Link href={`/project/${slugify(project.title)}`}>
                 <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal mb-8">
                     {(project.content.title).trim()}
@@ -41,6 +51,7 @@ export function Projects() {
                     </Link>
                 </div>
             </Link>
+            </FollowerPointerCard>
         ),
     }));
 
