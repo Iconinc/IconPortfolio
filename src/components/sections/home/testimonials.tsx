@@ -4,7 +4,7 @@ import {TestimonialsContent} from "@/Content/Testimonial";
 export function Testimonials() {
 
     return (
-        <section className={'dark:bg-neutral-900'}>
+        <section className={'bg-neutral-100 dark:bg-neutral-950'}>
             <AnimatedTestimonials testimonials={TestimonialsContent} />
         </section>
             );

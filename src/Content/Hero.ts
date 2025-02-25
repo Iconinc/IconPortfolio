@@ -15,5 +15,7 @@ export const DockContent = [
     {title:'Angular', icon: '/custom-icons/angular.png', path: 'https://angular.dev/'},
     {title:'TailwindCSS', icon: '/custom-icons/tailwindcss.png', path: 'https://tailwindcss.com/'},
     {title:'GraphQL', icon: '/custom-icons/graphql.png', path: 'https://graphql.org/'},
+    {title:'Figma', icon: '/custom-icons/figma.png', path: 'https://figma.com'},
+    {title:'Adobe', icon: '/custom-icons/Adobe.png', path: 'https://adobe.com'},
 ]
 

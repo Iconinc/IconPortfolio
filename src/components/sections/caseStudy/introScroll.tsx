@@ -1,26 +1,32 @@
 "use client";
 import React from "react";
 import Image from "next/image";
-import { ContainerScroll } from "@/components/ui/caseStudy/container-scroll-animation";
+import {ContainerScroll} from "@/components/ui/caseStudy/container-scroll-animation";
 
-export function IntroScroll() {
+interface IntroScrollProps {
+    title?: string | undefined,
+    image?: any,
+    subTitle?: string | undefined
+}
+
+export function IntroScroll({title, image, subTitle}: IntroScrollProps) {
     return (
         <div className="flex flex-col overflow-hidden">
             <ContainerScroll
                 titleComponent={
                     <>
                         <h1 className="text-4xl font-semibold text-black dark:text-white">
-                            Unleash the power of <br />
+                            {subTitle}<br/>
                             <span className="text-4xl md:text-[6rem] font-bold mt-1 leading-none">
-                Scroll Animations
+                {title}
               </span>
                         </h1>
                     </>
                 }
             >
                 <Image
-                    src={`https://cdn.dribbble.com/userupload/32746758/file/original-8e599d174c9d4c5545fabec3c3b22713.png?resize=1504x940&vertical=center`}
-                    alt="hero"
+                    src={image}
+                    alt={title || 'Image 1'}
                     height={720}
                     width={1400}
                     className="mx-auto rounded-2xl object-cover h-full object-left-top"

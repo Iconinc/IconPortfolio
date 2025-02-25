@@ -4,15 +4,16 @@ import { Timeline } from "@/components/ui/timeline";
 import { ProjectData } from "@/Content/Project";
 import Link from "next/link";
 import {Dribbble, ExternalLink} from "lucide-react";
+import { slugify } from "@/lib/slugify";
 
 export function Projects() {
 
     const timelineData = ProjectData.map((project) => ({
         title: project.title,
         content: (
-            <div>
+            <Link href={`/project/${slugify(project.title)}`}>
                 <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal mb-8">
-                    {project.content.title}
+                    {(project.content.title).trim()}
                 </p>
                 <ul className={'flex flex-col items-start gap-4'}>
                     {project?.content?.contentLists?.map((item, index) => (
@@ -39,7 +40,7 @@ export function Projects() {
                         <Dribbble size={12}/>
                     </Link>
                 </div>
-            </div>
+            </Link>
         ),
     }));
 
