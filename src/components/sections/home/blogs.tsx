@@ -11,7 +11,7 @@ export function Blogs() {
     return (
         <div className="w-full h-full py-20 bg-neutral-100 dark:bg-neutral-950">
             <h2 className="max-w-7xl pl-4 mx-auto text-xl md:text-5xl font-bold text-neutral-800 dark:text-neutral-200 font-sans">
-                Recent UI/UX
+                Recent UI/UX Projects :)
             </h2>
             <Carousel items={cards}/>
         </div>
@@ -71,17 +71,17 @@ const data = [
         src: "/assets/univease.jpg",
         figma: 'https://embed.figma.com/design/r2ssM17YvHjoX0DIbO8F8z/UnivEase?node-id=8-44&embed-host=share',
         prototype: 'https://embed.figma.com/proto/r2ssM17YvHjoX0DIbO8F8z/UnivEase?node-id=185-71&p=f&scaling=scale-down&content-scaling=fixed&page-id=8%3A44&starting-point-node-id=185%3A71&embed-host=share',
-        content: <DummyContent figma={'https://embed.figma.com/design/O2ISTHLzYrPkpu76Z3rwwM/Too-Nation?node-id=0-1&embed-host=share'}
-                               prototype={'https://embed.figma.com/proto/O2ISTHLzYrPkpu76Z3rwwM/Too-Nation?page-id=0%3A1&node-id=1-2&embed-host=share'}/>,
+        content: <DummyContent figma={'https://embed.figma.com/design/r2ssM17YvHjoX0DIbO8F8z/UnivEase?node-id=8-44&embed-host=share'}
+                               prototype={'https://embed.figma.com/proto/r2ssM17YvHjoX0DIbO8F8z/UnivEase?node-id=185-71&p=f&scaling=scale-down&content-scaling=fixed&page-id=8%3A44&starting-point-node-id=185%3A71&embed-host=share'}/>,
     },
     {
         category: "Agency",
-        title: "Sekadi Software Agency",
-        src: "/assets/sekadi.jpg",
-        figma: 'https://embed.figma.com/design/EzdGN1IZAiiq0dIUL87X5h/Sekadi-refubrished?node-id=0-1&embed-host=share',
-        prototype: 'https://embed.figma.com/proto/QpXKE62f9U1ZjvFo6w7RGJ/OWC?page-id=3%3A3&node-id=115-898&p=f&viewport=-495%2C298%2C0.15&scaling=scale-down&content-scaling=fixed&starting-point-node-id=64%3A585&embed-host=share',
-        content: <DummyContent figma={'https://embed.figma.com/design/O2ISTHLzYrPkpu76Z3rwwM/Too-Nation?node-id=0-1&embed-host=share'}
-                               prototype={'https://embed.figma.com/proto/O2ISTHLzYrPkpu76Z3rwwM/Too-Nation?page-id=0%3A1&node-id=1-2&embed-host=share'}/>,
+        title: "Agakoti VPN",
+        src: "/assets/agakoti.jpg",
+        figma: 'https://embed.figma.com/design/wwSz8tph1jta4pUJ9O7bLP/Agakoti-VPN?node-id=4-67&embed-host=share',
+        prototype: 'https://embed.figma.com/proto/wwSz8tph1jta4pUJ9O7bLP/Agakoti-VPN?page-id=4%3A67&node-id=10-51&starting-point-node-id=10%3A51&scaling=scale-down&content-scaling=fixed&embed-host=share',
+        content: <DummyContent figma={'https://embed.figma.com/design/wwSz8tph1jta4pUJ9O7bLP/Agakoti-VPN?node-id=4-67&embed-host=share'}
+                               prototype={'https://embed.figma.com/proto/wwSz8tph1jta4pUJ9O7bLP/Agakoti-VPN?page-id=4%3A67&node-id=10-51&starting-point-node-id=10%3A51&scaling=scale-down&content-scaling=fixed&embed-host=share'}/>,
     },
     {
         category: "Tourist",

@@ -1,4 +1,4 @@
-export const CompanyName = 'Icon.';
+export const CompanyName = 'Reconfort.';
 
 export const HeroContent1 = "Let\'s transform your Concept Idea into ";
 

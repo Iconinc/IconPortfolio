@@ -14,7 +14,7 @@ export default function Home() {
         <section id={'Products'}>
             <Projects/>
         </section>
-        <Blogs/>
+        <Blogs/>z
         <Bento/>
         <Testimonials/>
     </section>

@@ -32,7 +32,7 @@ const Footer = () => {
             >
                 <div className={'container flex gap-8 flex-col md:flex-row items-center lg:!justify-between px-4'}>
                     <p>
-                    © {new Date().getFullYear()} All Rights Reserved by Icon.
+                    © {new Date().getFullYear()} All Rights Reserved by Reconfort.
                     </p>
                     <ul className={'flex flex-wrap items-center justify-center uppercase gap-4 md:gap-8 font-semibold text-sm'}>
                         <LinkPreview url="https://www.instagram.com/theicondevs" className="duration-150 hover:tracking-widest">
